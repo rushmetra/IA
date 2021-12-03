@@ -36,6 +36,40 @@ excecao(jogo(IdJogo, CostaCarvalho, AjudasCusto)):-
 
 
 
+% v.
+
+jogo(J5, EdgarEsteves, );
+
+
+
+% vi.
+
+jogo(J6, FranciscoFranca, );
+
+
+% vii.
+
+jogo(J7, GuerraGodinho, );
+
+
+% viii. 
+
+jogo(J8, HelderHeitor, );
+
+% ix.
+
+jogo(J9, IvoInocencio, );
+
+
+% x.
+
+
+
+% xi.
+
+
+
+% xii.
 
 
 
