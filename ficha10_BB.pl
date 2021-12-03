@@ -21,24 +21,20 @@ excecao(jogo(Id,Arbitro,AjudasCusto)):-
 % iii.
 
 
-excecao(jogo(IdJogo, CostaCarvalho, AjudasCusto)):-
-                    jogo(IdJogo, CostaCarvalho, 500),
-                    jogo(IdJogo, CostaCarvalho, 2000).
-
-
-
-
-% jogo(J3, CostaCarvalho, );
+excecao(jogo(3, CostaCarvalho, 500)).
+excecao(jogo(3, CostaCarvalho, 2500)).
 
 % iv.
-
 % jogo(J4,DuarteDurao, );
 
-
+excecao(jogo(4,DuarteDurao,AjudasCusto)):-
+    AjudasCusto >= 250,
+    AjudasCusto <= 750.
 
 % v.
 
-jogo(J5, EdgarEsteves, );
+excecao(jogo(5, EdgarEsteves, AjudasCusto)) :-
+        jogo(5, EdgarEsteves,)
 
 
 
