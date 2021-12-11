@@ -69,7 +69,10 @@ jogo(J9, IvoInocencio, );
 
 
 
-
+% NEGACAO FORTE que nao existiu um jogo
+-jogo(Id,Arbitro,AjudasCusto) :- nao (-Q).
+    nao(jogo(Id,Arbitro,AjudasCusto)),
+    nao(excecao(jogo(Id,Arbitro,AjudasCusto))).
 
 
 
