@@ -34,8 +34,8 @@ excecao(jogo(4,DuarteDurao,AjudasCusto)):-
 % v.
 
 excecao(jogo(5, EdgarEsteves, AjudasCusto)) :-
-        jogo(5, EdgarEsteves,)
-
+        jogo(5, EdgarEsteves,xpto0123).
+nulo(xpto0123).
 
 
 % vi.
